@@ -1,0 +1,168 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    list-style: azure ;
+}
+h1 h2 h3 h4 h5 h6{
+    font-weight: 800;
+} 
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.6s ease;
+    font-weight: 500;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+.nav-item a:hover {
+    color:#f39c12;
+}
+
+.nav-bar img{
+    border-radius: 20px;
+    width: 60%;
+
+}
+
+section{
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+/* hero css */
+.hero {
+    background-image: url('img/hero.jpeg');
+    background-size: contain;
+      background-repeat: no-repeat;
+      background-position:inherit;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #141414c7;
+    padding: 0 20px;
+    background-color: rgba(240, 248, 255, 0.705);
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    max-width: 500px;
+    margin: 0 auto 40px;
+  }
+
+  .hero .btn {
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f39c12;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .hero .btn:hover {
+    background-color: #e67e22;
+  }
+/* hero css end */
+.social{
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+
+
+.social a:hover{
+   background-color:black;
+   border-radius: 50%;
+}
+.social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    background-color: rgb(194, 208, 219);
+    border-radius: 100px;
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+}
+.sld{
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+}
+
+#bgi{
+    width: 100%;
+    height: 10%;
+}
+.card-img-top {
+    height: 260px;
+    object-fit: cover;
+  }
+
+  footer{
+    width: 100%;
+    background-color: #5e4485;
+    padding: 3%; 
+    color: white; 
+}
+
+/* review style */
+
+.review-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.customer-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.customer-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5;
+}
+/* review end */
+
+  /* sevices */
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    max-height: 250px;
+    object-fit: contain;
+  }
+  /*  end*/
+
+
+/* gal style */
+
+
+#test img{
+  width: 100%;
+  height: 100%;
+}
+#map{
+width: 70%;
+}
